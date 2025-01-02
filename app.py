@@ -10,7 +10,7 @@ while iq != 100:
   ua = int(input(f"what is the answer({fn}+{sn}+?): "))
   if ua == ca:
     print("correct")
-    iq += 1
+    iq += 1 
     fn += 1
     sn += 1
     ca = fn + sn
