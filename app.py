@@ -15,9 +15,10 @@ while iq != 100:
     sn += 1
     ca = fn + sn
   elif ua == 100:
-    print("you spammed, get outta here...")
-    iq = 100
-    crazy = True
+    if fn != 50:
+      print("you spammed, get outta here...")
+      iq = 100
+      crazy = True
   else:
     print("wrong")
     iq -= 1
